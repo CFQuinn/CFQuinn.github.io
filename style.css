@@ -1,0 +1,43 @@
+body {
+	max-width: 960px;
+}
+
+#poke {background-image: url(http://www.pngmart.com/files/2/Pokeball-PNG-Photos.png);}
+
+table {
+  border-spacing: 0.5rem;
+}
+table { width: 640px; }
+td, th { border: 1px solid #CCC; }
+
+ol > li {
+	font-family: cursive;
+}
+
+h1 {
+	margin: 35px;
+	padding-top: 50px;
+}
+#footer {
+	text-align: center;
+}
+
+.color {
+	color: green;
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  .color {
+	font-size: 35px;
+  }
+  table {
+  	width: 450px;
+  }
+}
